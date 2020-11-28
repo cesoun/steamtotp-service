@@ -1,0 +1,20 @@
+{
+  "name": "steamtotp-service",
+  "version": "1.0.0",
+  "description": "A web service for getting Steam TOTP codes because I am VAC Banned :)",
+  "main": "index.js",
+  "author": "Christopher Oswald",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+	  "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "steam-totp": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
